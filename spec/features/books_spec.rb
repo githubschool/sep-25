@@ -12,7 +12,7 @@ describe "creating a book", type: :feature do
       inception in 2005, and is used by small development shops and giants like
       Google, Red Hat, and IBM, and of course many open source projects.
       EOF
-      fill_in "Website", with: "https://git-scm.com/book/en/v2"
+      # fill_in "Website", with: "https://git-scm.com/book/en/v2"
       fill_in "Year published", with: "2009"
     end
 
