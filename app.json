@@ -1,7 +1,7 @@
 {
   "name": "demo-deploy",
   "scripts": {
-    "postdeploy": "bin/update"
+    "postdeploy": "bin/heroku"
   },
   "env": {
   },
