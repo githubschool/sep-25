@@ -14,5 +14,8 @@ describe "creating a book", type: :feature do
       EOF
       fill_in "Year published", with: "2009"
     end
+
+    click_button "Create"
+    expect(page).to have_text "Created"
   end
 end
