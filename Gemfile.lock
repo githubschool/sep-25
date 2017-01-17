@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/activescaffold/active_scaffold.git
+  revision: ae05822c8e067cf381a4f7df2758643630d07c2d
+  specs:
+    active_scaffold (3.4.99)
+      ice_nine (~> 0.11)
+      rails (>= 4.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,6 +74,7 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    ice_nine (0.11.2)
     jbuilder (2.6.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -184,6 +193,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_scaffold!
   byebug
   capybara
   coffee-rails (~> 4.2)
