@@ -1,24 +1,10 @@
-# README
+# MyAwesomeBookApp.lol
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is it?
 
-Things you may want to cover:
+Have you ever wanted to keep track of your favorite books? MyAwesomeBookApp is the solution you've been waiting for!
 
-* Ruby version
+## Adding a book
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Adding a book is easy, and your new entries are displayed and searchable right away!
+!["Create Book" form](https://cloud.githubusercontent.com/assets/4215/22151066/f3502322-dee1-11e6-9442-843bb4822b2c.png)
