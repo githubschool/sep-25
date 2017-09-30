@@ -36,10 +36,10 @@ Various admin settings in your repository allow you to take control, including g
         - :white_check_mark: _Restrict editing to collaborators only_
         - :white_check_mark: _Issues_
         - :white_check_mark: _Projects_
-- [Collaborators](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/). Ensure everyone in your group has access to your repository.
+- [**Collaborators**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/). Ensure everyone in your group has access to your repository.
     - Type the name of each group member in the text box and click **Add collaborator**.
     - An invite will be sent via email, or use the invite link to accept the invitation.
-- [Branches](https://help.github.com/articles/setting-the-default-branch/). Group Lead, let's fine tune how changes are made on our branches.
+- [**Branches**](https://help.github.com/articles/setting-the-default-branch/). Group Lead, let's fine tune how changes are made on our branches.
     - [Protected Branches](https://help.github.com/articles/configuring-protected-branches/). Arguably one of the most important settings in your repository. Helps enforce [Status Checks](https://help.github.com/articles/enabling-required-status-checks/) and [Code Reviews](https://github.com/features/code-review) for proposed changes.
         1. In the **Settings** menu, select **Branches.**
         1. The **Default Branch** should remain set to `master`. Under **Protected branches**, click **Choose a branch** and select `master`.
@@ -50,9 +50,9 @@ Various admin settings in your repository allow you to take control, including g
             - :white_check_mark: _Require status checks to pass before merging_
             - :white_check_mark: _Include administrators_
         1. Click **Save changes.**
-- [Webhooks](https://help.github.com/articles/about-webhooks/). Rather than poll your repository for changes or events, webhooks are sent out each time an event occurs. We will try one out later in this session.
-- [Integrations & services](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later.
-- [Deploy keys](https://developer.github.com/v3/guides/managing-deploy-keys/). An advanced topic. Deploy keys are an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to clone repositories during deploys or continuous integration runs.
+- [**Webhooks**](https://help.github.com/articles/about-webhooks/). Rather than poll your repository for changes or events, webhooks are sent out each time an event occurs. We will try one out later in this session.
+- [**Integrations & services**](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later.
+- [**Deploy keys**](https://developer.github.com/v3/guides/managing-deploy-keys/). An advanced topic. Deploy keys are an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to clone repositories during deploys or continuous integration runs.
 
 # Create an Issue
 
