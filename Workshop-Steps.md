@@ -22,7 +22,7 @@ Look to your left, then to your right! Get into groups of two, three or four and
 
 Various admin settings in your repository allow you to take control, including granting access to your group. Let's try out a few of them now. Go to the **Settings** tab of your repository:
 
-- [Options](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting.
+- [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting.
     - Turn on all four of the **Features** in your Options page:
         - :white_check_mark: _Wikis_
         - :white_check_mark: _Restrict editing to collaborators only_
