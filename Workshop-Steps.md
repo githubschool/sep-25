@@ -1,6 +1,6 @@
 # Workshop Steps
 
-The goal of this workshop is to demonstrate how to get started with some of the most important features in a GitHub repository, with a focus on the GitHub Flow. All links below are to additional GitHub documentation.
+The goal of this workshop is to demonstrate how to get started with some of the most important features in a GitHub repository, with a focus on the GitHub Flow. Links to descriptions of GitHub terminology are included in the steps below.
 
 **Table of Contents:**
 
