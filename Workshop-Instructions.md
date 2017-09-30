@@ -36,10 +36,10 @@ Various admin settings in your repository allow you to take control, including g
 
 - [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting.
     - Turn on all four of the **Features** in your Options page:
-        - :white_check_mark: _Wikis_
-        - :white_check_mark: _Restrict editing to collaborators only_
-        - :white_check_mark: _Issues_
-        - :white_check_mark: _Projects_
+        - :ballot_box_with_check: _Wikis_
+        - :ballot_box_with_check: _Restrict editing to collaborators only_
+        - :ballot_box_with_check: _Issues_
+        - :ballot_box_with_check: _Projects_
 - [**Collaborators**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/). Ensure everyone in your group has access to your repository.
     - Type the name of each group member in the text box and click **Add collaborator**.
     - An invite will be sent via email, or use the invite link to accept the invitation.
@@ -48,11 +48,11 @@ Various admin settings in your repository allow you to take control, including g
         1. In the **Settings** menu, select **Branches.**
         1. The **Default Branch** should remain set to `master`. Under **Protected branches**, click **Choose a branch** and select `master`.
         1. In the screen titled **Branch protection for master**, select the **Protect this branch** option. Also, select the following options:
-            - :white_check_mark: _Require pull request reviews before merging_
-            - :white_check_mark: _Dismiss stale pull request approvals when new commits are pushed_
-            - :white_check_mark: _Require review from Code Owners_
-            - :white_check_mark: _Require status checks to pass before merging_
-            - :white_check_mark: _Include administrators_
+            - :ballot_box_with_check: _Require pull request reviews before merging_
+            - :ballot_box_with_check: _Dismiss stale pull request approvals when new commits are pushed_
+            - :ballot_box_with_check: _Require review from Code Owners_
+            - :ballot_box_with_check: _Require status checks to pass before merging_
+            - :ballot_box_with_check: _Include administrators_
         1. Click **Save changes.**
 - [**Webhooks**](https://help.github.com/articles/about-webhooks/). Rather than poll your repository for changes or events, webhooks are sent out each time an event occurs. We will try one out later in this session.
 - [**Integrations & services**](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later.
@@ -145,8 +145,8 @@ When a Pull Request is opened, each new commit can trigger automatic test deploy
 
 1. Go to the Heroku dashboard at https://dashboard.heroku.com. Select **my-awesome-book-app**.
 1. Click **Enable Review Apps**, then select both options:
-    - :white_check_mark: _Select Create new review apps for new pull requests automatically_
-    - :white_check_mark: _Select Destroy stale review apps automatically_
+    - :ballot_box_with_check: _Select Create new review apps for new pull requests automatically_
+    - :ballot_box_with_check: _Select Destroy stale review apps automatically_
     - Click **Enable**
 
 # End-to-End Test
