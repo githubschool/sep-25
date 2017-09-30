@@ -102,7 +102,7 @@ A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps f
 
 # Perform Code Review and Merge Pull Request
 
-Have all the members in the group perform code review on the Pull Request. To d this, provide have the group access the pull Request link, and then they can follow these steps:
+Each group member is now able to perform a code review. To do this, each group member should access the Pull Request, then perform the following steps:
 
 1. If you were requested for Code Review, at the top of the Pull Request you will see an **Add your review** button.
 1. After clicking **Add your review** you will be presented with a list of files and their changes, and you can use the **Submit your review** box to provide commentary.
