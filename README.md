@@ -14,7 +14,9 @@ _Welcome! :wave: This is the source repository for the [GitHub for Managers Univ
 
 #### Prerequisites
 
-_If you don't already have an account with GitHub, sign up and create a new account at https://github.com/join before the workshop and log in when the workshop starts._
+- **GitHub Account.** If you don't already have an account with GitHub, sign up and create a new account at https://github.com/join before the workshop.
+- **Heroku Account.** If you don't already have an account with Heroku, sign up and create a new account at https://signup.heroku.com/login before the workshop.
+- Log in to both **GitHub** and **Heroku** just before the workshop begins!
 
 <hr>
 
