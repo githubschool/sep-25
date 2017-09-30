@@ -10,13 +10,15 @@
   </p>
 </p>
 
-_Welcome! :wave: This is the source repository for the [GitHub for Managers Universe Workshop](https://githubuniverse.com/program/). Be sure to follow the prerequisite(s) below before coming to the workshop to get started!_
-
 #### Prerequisites
+
+_Welcome! :wave: This is the source repository for the GitHub for Managers Universe Workshop. Be sure to follow the prerequisite(s) below before coming to the workshop to get started!_
 
 - :point_right: **GitHub Account.** If you don't already have an account with GitHub, sign up and create a new account at https://github.com/join before the workshop.
 - :point_right: **Heroku Account.** If you don't already have an account with Heroku, sign up and create a new account at https://signup.heroku.com/login before the workshop.
 - :point_right: Log in to both **GitHub** and **Heroku** just before the workshop begins!
+
+The instructions we will use during the workshop are located in [Workshop-Instructions.md](Workshop-Instructions.md).
 
 <hr>
 
