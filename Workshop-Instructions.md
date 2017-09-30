@@ -1,4 +1,8 @@
-# Workshop Instructions
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3791941/31036931-072760fe-a534-11e7-8cd7-0565bdc2727c.png" width="100" height="60">
+
+  <h3 align="center">GitHub for Managers - Workshop Instructions<br></h3>
+</p>
 
 The goal of this workshop is to demonstrate how to get started with some of the most important features in a GitHub repository, with a focus on the GitHub Flow. Links to descriptions of GitHub terminology are included in the steps below.
 
