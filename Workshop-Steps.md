@@ -2,21 +2,29 @@
 
 The goal of this workshop is to demonstrate how to get started with some of the most important features in a GitHub repository, with a focus on the GitHub Flow. All links below are to additional GitHub documentation.
 
+**Table of Contents:**
+
+- [Get in Groups](#get-in-groups)
+- [Let's Get Started!](#lets-get-started)
+- [Set Administrative Settings](#set-administrative-settings)
+- [Create an Issue](#create-an-issue)
+- [Update CODEOWNERS file](#update-codeowners-file)
+- [Perform Code Review and Merge Pull Request](#perform-code-review-and-merge-pull-request)
+- [Setup CI](#setup-ci)
+- [Setup CD](#setup-cd)
+- [End-to-End Test](#end-to-end-test)
+
 ***
 
 # Get in Groups
 
 Look to your left, then to your right! Get into groups of two, three or four and let's collaborate. Identify one person as the **Group Lead**. They will lead the activity for the group and be responsible for granting access to the group.
 
-***
-
 # Let's Get Started!
 
 1. Be sure to follow the steps in the prerequisites section of the **README.md** file to get your account setup and logged in at https://github.com. Then, ensure your group knows your username handle.
 1. **Group Lead**, go to the main workshop repository in your browser at https://github.com/universeworkshops/github-for-managers. At the top-right, click the **Fork** button, then select your username to [Fork the repository](https://help.github.com/articles/fork-a-repo/). This will effectively copy the repository to the Group Lead's account, and will be the workspace for your group.
     - Group Lead, give the new URL to your group and have them go to this page in their browser. It will look similar to https://github.com/GROUPLEADACCOUNT/github-for-managers.
-
-***
 
 # Set Administrative Settings
 
@@ -46,8 +54,6 @@ Various admin settings in your repository allow you to take control, including g
 - [Integrations & services](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later.
 - [Deploy keys](https://developer.github.com/v3/guides/managing-deploy-keys/). An advanced topic. Deploy keys are an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to clone repositories during deploys or continuous integration runs.
 
-***
-
 # Create an Issue
 
 Let's create a tracking Issue to record some work that needs to be done. Select a group member to do the following:
@@ -61,8 +67,6 @@ Let's create a tracking Issue to record some work that needs to be done. Select 
     ```
     We need to update the CODEOWNERS file with our new group members.
     ```
-
-***
 
 # Update CODEOWNERS file
 
@@ -92,8 +96,6 @@ A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps f
 1. On the right-side, click **Reviewers** and select your group members for review.
 1. Click **Create Pull Request.**
 
-***
-
 # Perform Code Review and Merge Pull Request
 
 Have all the members in the group perform code review on the Pull Request. To d this, provide have the group access the pull Request link, and then they can follow these steps:
@@ -103,8 +105,6 @@ Have all the members in the group perform code review on the Pull Request. To d 
 1. In the spirit of time, select **Approve** and click **Submit review**.
 1. The group member who opened the Pull Request should now be able to click **Merge pull request** and **Confirm merge**.
 1. It is common to always click **Delete branch** after a merge because the branch is no longer in development and thus not needed anymore.
-
-***
 
 # Setup CI
 
@@ -122,8 +122,6 @@ Let's set up a CI job for your repository. Have the Group Lead perform the follo
 1. After about four minutes, your CircleCI tests should pass :tada: :tada:.
 
 **Post-workshop exercise:** Try setting up a Travis CI status check at https://travis-ci.org.
-
-***
 
 # Setup CD
 
@@ -146,8 +144,6 @@ When a Pull Request is opened, each new commit can trigger automatic test deploy
     - :white_check_mark: _Select Create new review apps for new pull requests automatically_
     - :white_check_mark: _Select Destroy stale review apps automatically_
     - Click **Enable**
-
-***
 
 # End-to-End Test
 
