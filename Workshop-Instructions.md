@@ -167,3 +167,9 @@ Now we have CI/CD setup for our app. Let's try it out! Select any group member t
     ```
 1. Click **Commit changes** [:camera:](workshop-images/github-for-managers.070.jpeg). A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
 1. Add the `enhancement` label and click **Create pull request**. [:camera:](workshop-images/github-for-managers.071.jpeg)
+1. The Pull Request will now show the creation of a conversation about the change as well as the integrated dev tools you can follow throughout the requested change. [:camera:](workshop-images/github-for-managers.072.jpeg)
+    - Code Owner enforcement with automatic Code Review
+    - Conversation
+    - Initial and subsequent commits to this branch
+    - Automatic build/test with link [:camera:](workshop-images/github-for-managers.074.jpeg)
+    - Automatic staging deployment with link [:camera:](workshop-images/github-for-managers.073.jpeg)
