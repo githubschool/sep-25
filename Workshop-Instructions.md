@@ -41,28 +41,28 @@ Various admin settings in your repository allow you to take control, including g
         - :ballot_box_with_check: _Issues_
         - :ballot_box_with_check: _Projects_
 - [**Collaborators**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/). Ensure everyone in your group has access to your repository.
-    - Type the name of each group member in the text box and click **Add collaborator**.
-    - An invite will be sent via email, or use the invite link to accept the invitation.
+    - Type the name of each group member in the text box and click **Add collaborator**. [:camera:](workshop-images/github-for-managers.016.jpeg)
+    - An invite will be sent via email, or use the invite link to accept the invitation. [:camera:](workshop-images/github-for-managers.017.jpeg)
 - [**Branches**](https://help.github.com/articles/setting-the-default-branch/). Group Lead, let's fine tune how changes are made on our branches.
     - [Protected Branches](https://help.github.com/articles/configuring-protected-branches/). Arguably one of the most important settings in your repository. Helps enforce [Status Checks](https://help.github.com/articles/enabling-required-status-checks/) and [Code Reviews](https://github.com/features/code-review) for proposed changes.
         1. In the **Settings** menu, select **Branches.**
-        1. The **Default Branch** should remain set to `master`. Under **Protected branches**, click **Choose a branch** and select `master`.
-        1. In the screen titled **Branch protection for master**, select the **Protect this branch** option. Also, select the following options:
+        1. The **Default Branch** should remain set to `master`. Under **Protected branches**, click **Choose a branch** and select `master`. [:camera:](workshop-images/github-for-managers.018.jpeg)
+        1. In the screen titled **Branch protection for master**, select the **Protect this branch** option. Also, select the following options: [:camera:](workshop-images/github-for-managers.019.jpeg)
             - :ballot_box_with_check: _Require pull request reviews before merging_
             - :ballot_box_with_check: _Dismiss stale pull request approvals when new commits are pushed_
             - :ballot_box_with_check: _Require review from Code Owners_
             - :ballot_box_with_check: _Require status checks to pass before merging_
             - :ballot_box_with_check: _Include administrators_
         1. Click **Save changes.**
-- [**Webhooks**](https://help.github.com/articles/about-webhooks/). Rather than poll your repository for changes or events, webhooks are sent out each time an event occurs. We will try one out later in this session.
-- [**Integrations & services**](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later.
-- [**Deploy keys**](https://developer.github.com/v3/guides/managing-deploy-keys/). An advanced topic. Deploy keys are an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to clone repositories during deploys or continuous integration runs.
+- [**Webhooks**](https://help.github.com/articles/about-webhooks/). Rather than poll your repository for changes or events, webhooks are sent out each time an event occurs. We will try one out later in this session. [:camera:](workshop-images/github-for-managers.020.jpeg)
+- [**Integrations & services**](https://github.com/marketplace). GitHub provides best-of-breed integrations to many external services. This is where you begin to tie your entire development pipeline to your repository. We will talk about this later. [:camera:](workshop-images/github-for-managers.021.jpeg)
+- [**Deploy keys**](https://developer.github.com/v3/guides/managing-deploy-keys/). An advanced topic. Deploy keys are an SSH key that is stored on your server and grants access to a single GitHub repository. They are often used to clone repositories during deploys or continuous integration runs. [:camera:](workshop-images/github-for-managers.022.jpeg)
 
 # Create an Issue
 
 Let's create a tracking Issue to record some work that needs to be done. Select a group member to do the following:
 
-1. In the repository's **Issues** tab, click **New issue**.
+1. In the repository's **Issues** tab, click **New issue**. [:camera:](workshop-images/github-for-managers.032.jpeg)
 1. Enter the following for the **Title**:
     ```
     Update CODEOWNERS file
@@ -71,14 +71,14 @@ Let's create a tracking Issue to record some work that needs to be done. Select 
     ```
     We need to update the CODEOWNERS file with our new group members.
     ```
-1. Click **Submit new issue**.
+1. Click **Submit new issue**. [:camera:](workshop-images/github-for-managers.033.jpeg)
 
 # Update CODEOWNERS file
 
 A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps file or folder paths to teams or people that should review proposed changes to that location. This is particularly helpful if you want to ensure specific files and folders have the proper reviewers. Select a group member to do the following:
 
-1. In the repository's **Code** tab, navigate to the `.github` folder.
-1. Open the `CODEOWNERS` file. Click the :pencil2: pencil icon to edit the file.
+1. In the repository's **Code** tab, navigate to the `.github` folder. [:camera:](workshop-images/github-for-managers.035.jpeg)
+1. Open the `CODEOWNERS` file. Click the :pencil2: pencil icon to edit the file. [:camera:](workshop-images/github-for-managers.036.jpeg) [:camera:](workshop-images/github-for-managers.037.jpeg)
 1. Add the following line to the bottom of the file, and replace the sample member names with your group's GitHub username handles:
     ```
     * @member1 @member2 @member3
@@ -91,7 +91,7 @@ A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps f
     ```
     codeowners-update
     ```
-1. Click **Commit changes**. A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
+1. Click **Commit changes** [:camera:](workshop-images/github-for-managers.038.jpeg). A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
 1. At the bottom of the Pull Request body, enter a new line and type the following characters:
     ```
     Fixes #
@@ -99,32 +99,32 @@ A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps f
 1. As soon as you type the `#` character in the Pull Request body, an auto-complete dialog will display currently open **Issues**. Select the Issue you created earlier, this will link the artifacts together.
 1. Finish completing the Pull Request body with any sample text.
 1. On the right-side, click **Reviewers** and select your group members for review.
-1. Click **Create Pull Request.**
+1. Click **Create Pull Request.** [:camera:](workshop-images/github-for-managers.039.jpeg)
 
 # Perform Code Review and Merge Pull Request
 
 Each group member is now able to perform a code review. To do this, each group member should access the Pull Request, then perform the following steps:
 
-1. If you were requested for Code Review, at the top of the Pull Request you will see an **Add your review** button.
+1. If you were requested for Code Review, at the top of the Pull Request you will see an **Add your review** button. [:camera:](workshop-images/github-for-managers.041.jpeg)
 1. After clicking **Add your review** you will be presented with a list of files and their changes, and you can use the **Submit your review** box to provide commentary.
-1. In the spirit of time, select **Approve** and click **Submit review**.
-1. The group member who opened the Pull Request should now be able to click **Merge pull request** and **Confirm merge**.
-1. It is common to always click **Delete branch** after a merge because the branch is no longer in development and thus not needed anymore.
+1. In the spirit of time, select **Approve** and click **Submit review**. [:camera:](workshop-images/github-for-managers.042.jpeg)
+1. The group member who opened the Pull Request should now be able to click **Merge pull request** and **Confirm merge**. [:camera:](workshop-images/github-for-managers.043.jpeg)
+1. It is common to always click **Delete branch** after a merge because the branch is no longer in development and thus not needed anymore. [:camera:](workshop-images/github-for-managers.044.jpeg)
 
 # Setup CI
 
 Let's set up a CI job for your repository. Have the Group Lead perform the following steps:
 
-1. Go to https://circleci.com and click **Log In**.
-1. Click **Sign in with GitHub**, and then click **Authorize circleci**.
-1. After authorization, the main CircleCI app is at https://circleci.com/dashboard. At the top, click the dropdown and select your user GitHub username handle.
-1. On the left side, click **Projects** and then click **Add Projects**.
-1. Next to **github-for-managers**, click **Setup project**, then:
+1. Go to https://circleci.com and click **Log In**. [:camera:](workshop-images/github-for-managers.046.jpeg)
+1. Click **Sign in with GitHub**, and then click **Authorize circleci**. [:camera:](workshop-images/github-for-managers.047.jpeg) [:camera:](workshop-images/github-for-managers.048.jpeg)
+1. After authorization, the main CircleCI app is at https://circleci.com/dashboard. At the top, click the dropdown and select your user GitHub username handle. [:camera:](workshop-images/github-for-managers.049.jpeg)
+1. On the left side, click **Projects** and then click **Add Projects**. [:camera:](workshop-images/github-for-managers.050.jpeg)
+1. Next to **github-for-managers**, click **Setup project** [:camera:](workshop-images/github-for-managers.051.jpeg), then:
     - For **Operating System**, select **Linux**
     - For **Platform**, select **1.0**
-    - Click **Start building**
-1. Check out the new Webhook created in your GitHub repository. Go to the repository's **Settings** tab, then select **Webhooks** to see it was automatically created.
-1. After about four minutes, your CircleCI tests should pass :tada: :tada:.
+    - Click **Start building** [:camera:](workshop-images/github-for-managers.052.jpeg)
+1. Check out the new Webhook created in your GitHub repository. Go to the repository's **Settings** tab, then select **Webhooks** to see it was automatically created. [:camera:](workshop-images/github-for-managers.054.jpeg)
+1. After about four minutes, your CircleCI tests should pass :tada: :tada:.[:camera:](workshop-images/github-for-managers.053.jpeg)
 
 **Post-workshop exercise:** Try setting up a Travis CI status check at https://travis-ci.org.
 
@@ -134,29 +134,29 @@ So our tests are wired in, now how do you deploy before merge? This helps us per
 
 **Connect Heroku to GitHub**
 
-1. Go to the Heroku dashboard at https://dashboard.heroku.com. Click **New > Create new app**.
+1. Go to the Heroku dashboard at https://dashboard.heroku.com and Log In [:camera:](workshop-images/github-for-managers.056.jpeg). Click **New > Create new app**. [:camera:](workshop-images/github-for-managers.057.jpeg)
 1. For the **App name**, enter `my-awesome-book-app`.
-1. Click **Add to pipeline**, then select **Create new pipeline**. Leave the defaults and click **Create app**.
-1. In the Heroku **Deploy** tab, for the **Deployment method** select :octocat: **GitHub** and **Connect to GitHub**. Log in if prompted, but it should take your already logged-in session.
-1. After authenticating Heroku to GitHub, type `github-for-managers` in the text box and click **Search**. Our repository should be displayed, then click **Connect**.
+1. Click **Add to pipeline**, then select **Create new pipeline**. Leave the defaults and click **Create app**. [:camera:](workshop-images/github-for-managers.058.jpeg)
+1. In the Heroku **Deploy** tab, for the **Deployment method** select :octocat: **GitHub** and **Connect to GitHub**. Log in if prompted, but it should take your already logged-in session. [:camera:](workshop-images/github-for-managers.059.jpeg) [:camera:](workshop-images/github-for-managers.060.jpeg)
+1. After authenticating Heroku to GitHub, type `github-for-managers` in the text box and click **Search**. Our repository should be displayed, then click **Connect**. [:camera:](workshop-images/github-for-managers.061.jpeg)
 
 **Enable Heroku Review Apps**
 
 When a Pull Request is opened, each new commit can trigger automatic test deployments, called Review Apps in Heroku.
 
-1. Go to the Heroku dashboard at https://dashboard.heroku.com. Select **my-awesome-book-app**.
-1. Click **Enable Review Apps**, then select both options:
+1. Go to the Heroku dashboard at https://dashboard.heroku.com. Select **my-awesome-book-app**. [:camera:](workshop-images/github-for-managers.062.jpeg)
+1. Click **Enable Review Apps** [:camera:](workshop-images/github-for-managers.063.jpeg), then select both options:
     - :ballot_box_with_check: _Select Create new review apps for new pull requests automatically_
     - :ballot_box_with_check: _Select Destroy stale review apps automatically_
-    - Click **Enable**
+    - Click **Enable** [:camera:](workshop-images/github-for-managers.064.jpeg)
 
 # End-to-End Test
 
 Now we have CI/CD setup for our app. Let's try it out! Select any group member to perform the following steps:
 
-1. Navigate back to the GitHub repository and select the **Code** tab.
-1. Go to the file `app/models/book.rb` and click the :pencil2: pencil icon to edit it.
-1. On Line 3, uncomment the line by deleting the `#` character.
+1. Navigate back to the GitHub repository and select the **Code** tab. [:camera:](workshop-images/github-for-managers.066.jpeg)
+1. Go to the file `app/models/book.rb` and click the :pencil2: pencil icon to edit it. [:camera:](workshop-images/github-for-managers.067.jpeg) [:camera:](workshop-images/github-for-managers.068.jpeg)
+1. On Line 3, uncomment the line by deleting the `#` character. [:camera:](workshop-images/github-for-managers.069.jpeg)
 1. Scroll down to the **Commit changes** section. Type the following in the commit message box:
     ```
     Adding new test for the app
@@ -165,5 +165,5 @@ Now we have CI/CD setup for our app. Let's try it out! Select any group member t
     ```
     add-test
     ```
-1. Click **Commit changes**. A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
-1. Add the `enhancement` label and click **Create pull request**.
+1. Click **Commit changes** [:camera:](workshop-images/github-for-managers.070.jpeg). A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
+1. Add the `enhancement` label and click **Create pull request**. [:camera:](workshop-images/github-for-managers.071.jpeg)
