@@ -71,6 +71,7 @@ Let's create a tracking Issue to record some work that needs to be done. Select 
     ```
     We need to update the CODEOWNERS file with our new group members.
     ```
+1. Click **Submit new issue**.
 
 # Update CODEOWNERS file
 
