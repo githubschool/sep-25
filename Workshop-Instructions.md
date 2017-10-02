@@ -27,15 +27,15 @@ Look to your left, then to your right! Get into groups of two, three or four and
 # Let's Get Started!
 
 1. Be sure to follow the steps in the prerequisites section of the **README.md** file to get your account setup and logged in at https://github.com. Then, ensure your group knows your username handle.
-1. **Group Lead**, go to the main workshop repository in your browser at https://github.com/universeworkshops/github-for-managers. At the top-right, click the **Fork** button, then select your username to [Fork the repository](https://help.github.com/articles/fork-a-repo/). This will effectively copy the repository to the Group Lead's account, and will be the workspace for your group.
-    - Group Lead, give the new URL to your group and have them go to this page in their browser. It will look similar to https://github.com/GROUPLEADACCOUNT/github-for-managers.
+1. **Group Lead**, go to the main workshop repository in your browser at https://github.com/universeworkshops/github-for-managers. At the top-right, click the **Fork** button, then select your username to [Fork the repository](https://help.github.com/articles/fork-a-repo/). This will effectively copy the repository to the Group Lead's account, and will be the workspace for your group. [:camera:](workshop-images/github-for-managers.008.jpeg) [:camera:](workshop-images/github-for-managers.009.jpeg)
+    - Group Lead, give the new URL to your group and have them go to this page in their browser. It will look similar to https://github.com/GROUPLEADACCOUNT/github-for-managers. [:camera:](workshop-images/github-for-managers.081.jpeg) [:camera:](workshop-images/github-for-managers.082.jpeg)
 
 # Set Administrative Settings
 
 Various admin settings in your repository allow you to take control, including granting access to your group. Let's try out a few of them now. Go to the **Settings** tab of your repository:
 
-- [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting. [:camera:](workshop-images/github-for-managers.015.jpeg)
-    - Turn on all four of the **Features** in your Options page:
+- [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting.
+    - Turn on all four of the **Features** in your Options page: [:camera:](workshop-images/github-for-managers.015.jpeg)
         - :ballot_box_with_check: _Wikis_
         - :ballot_box_with_check: _Restrict editing to collaborators only_
         - :ballot_box_with_check: _Issues_
