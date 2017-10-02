@@ -34,7 +34,7 @@ Look to your left, then to your right! Get into groups of two, three or four and
 
 Various admin settings in your repository allow you to take control, including granting access to your group. Let's try out a few of them now. Go to the **Settings** tab of your repository:
 
-- [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting.
+- [**Options**](https://help.github.com/articles/managing-repository-settings/). Provides various functions for your repo, like renaming and deleting. [(Image](workshop-images/github-for-managers.015.jpeg))
     - Turn on all four of the **Features** in your Options page:
         - :ballot_box_with_check: _Wikis_
         - :ballot_box_with_check: _Restrict editing to collaborators only_
@@ -166,3 +166,4 @@ Now we have CI/CD setup for our app. Let's try it out! Select any group member t
     add-test
     ```
 1. Click **Commit changes**. A [Pull Request](https://help.github.com/articles/about-pull-requests/) will automatically be opened for this proposed change.
+1. Add the `enhancement` label and click **Create pull request**.
