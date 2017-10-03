@@ -79,7 +79,7 @@ A [CODEOWNERS](https://github.com/blog/2392-introducing-code-owners) file maps f
 
 1. In the repository's **Code** tab, navigate to the `.github` folder. [:camera:](workshop-images/github-for-managers.035.jpeg)
 1. Open the `CODEOWNERS` file. Click the :pencil2: pencil icon to edit the file. [:camera:](workshop-images/github-for-managers.036.jpeg) [:camera:](workshop-images/github-for-managers.037.jpeg)
-1. Add the following line to the bottom of the file, and replace the sample member names with your group's GitHub username handles:
+1. Add the following line to the bottom of the file, and replace the sample member names with your group's GitHub username handles. Example:
     ```
     * @member1 @member2 @member3
     ```
