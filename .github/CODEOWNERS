@@ -1,3 +1,6 @@
 # This is a comment.
 # Each line is a file pattern followed by one or more owners. For example:
 # apps/ @app-team
+
+* @colossus9 @dpmex4527
+apps/ @githubteacher
