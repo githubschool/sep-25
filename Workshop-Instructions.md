@@ -123,8 +123,8 @@ Let's set up a CI job for your repository. Have the Group Lead perform the follo
     - For **Operating System**, select **Linux**
     - For **Platform**, select **1.0**
     - Click **Start building** [:camera:](workshop-images/github-for-managers.052.jpeg)
+1. After up to four minutes, your CircleCI tests should pass :tada: :tada:.[:camera:](workshop-images/github-for-managers.053.jpeg)
 1. Check out the new Webhook created in your GitHub repository. Go to the repository's **Settings** tab, then select **Webhooks** to see it was automatically created. [:camera:](workshop-images/github-for-managers.054.jpeg)
-1. After about four minutes, your CircleCI tests should pass :tada: :tada:.[:camera:](workshop-images/github-for-managers.053.jpeg)
 
 **Post-workshop exercise:** Try setting up a Travis CI status check at https://travis-ci.org.
 
