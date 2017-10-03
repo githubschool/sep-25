@@ -9,7 +9,7 @@ The goal of this workshop is to demonstrate how to get started with some of the 
 **Table of Contents:**
 
 - [Get in Groups](#get-in-groups)
-- [Let's Get Started!](#lets-get-started)
+- [Setup](#setup)
 - [Set Administrative Settings](#set-administrative-settings)
 - [Create an Issue](#create-an-issue)
 - [Update CODEOWNERS file](#update-codeowners-file)
@@ -24,7 +24,7 @@ The goal of this workshop is to demonstrate how to get started with some of the 
 
 Look to your left, then to your right! Get into groups of two, three or four and let's collaborate. Identify one person as the **Group Lead**. They will lead the activity for the group and be responsible for granting access to the group.
 
-# Let's Get Started!
+# Setup
 
 1. Be sure to follow the steps in the prerequisites section of the **README.md** file to get your account setup and logged in at https://github.com. Then, ensure your group knows your username handle.
 1. **Group Lead**, go to the main workshop repository in your browser at https://github.com/universeworkshops/github-for-managers. At the top-right, click the **Fork** button, then select your username to [Fork the repository](https://help.github.com/articles/fork-a-repo/). This will effectively copy the repository to the Group Lead's account, and will be the workspace for your group. [:camera:](workshop-images/github-for-managers.008.jpeg) [:camera:](workshop-images/github-for-managers.009.jpeg)
