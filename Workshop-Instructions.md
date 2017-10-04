@@ -8,12 +8,10 @@ The goal of this workshop is to demonstrate how to get started with some of the 
 
 **Table of Contents TBD:**
 
-- [Get in Groups](#get-in-groups)
-- [Setup](#setup)
-- [Set Administrative Settings](#set-administrative-settings)
+- [Concepts](#concepts)
 - [Create an Issue](#create-an-issue)
-- [Update CODEOWNERS file](#update-codeowners-file)
-- [Perform Code Review and Merge Pull Request](#perform-code-review-and-merge-pull-request)
+- [Add your file and create Pull Request](#add-your-file-and-create-pull-request)
+- [Now, a pipeline](#now-a-pipeline)
 - [Setup CI](#setup-ci)
 - [Setup CD](#setup-cd)
 - [End-to-End Test](#end-to-end-test)
