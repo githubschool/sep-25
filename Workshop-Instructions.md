@@ -6,7 +6,7 @@
 
 The goal of this workshop is to demonstrate how to get started with some of the most important features in a GitHub repository, with a focus on the GitHub Flow. Links to descriptions of GitHub terminology are included in the steps below.
 
-**Table of Contents TBD:**
+**Table of Contents:**
 
 - [Concepts](#concepts)
 - [Create an Issue](#create-an-issue)
