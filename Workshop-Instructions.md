@@ -124,7 +124,7 @@ First, let's connect [Heroku to GitHub](https://devcenter.heroku.com/articles/gi
 1. <a href="https://www.heroku.com" target="\_blank">Open a new tab</a>, go to the Heroku dashboard at https://dashboard.heroku.com and Log In. [:camera:](workshop-images/github-for-managers.032.jpeg) [:camera:](workshop-images/github-for-managers.033.jpeg)
     - If you haven't yet, register for a new Heroku account. You will be sent a confirmation email. [:camera:](workshop-images/github-for-managers.034.jpeg)
 1. Click **New > Create new app**. [:camera:](workshop-images/github-for-managers.035.jpeg)
-1. For the **App name**, enter `my-awesome-book-app-GITHUB_USERNAME`. Heroku app names must be unique so append `-GITHUB_USERNAME` to the name.. [:camera:](workshop-images/github-for-managers.036.jpeg)
+1. For the **App name**, enter `my-awesome-book-app-GITHUB_USERNAME`. Heroku app names must be unique so append `-GITHUB_USERNAME` to the name. [:camera:](workshop-images/github-for-managers.036.jpeg)
 1. Click **Add to pipeline**, then select **Create new pipeline**. Leave the defaults and click **Create app**. [:camera:](workshop-images/github-for-managers.036.jpeg)
 1. In the Heroku **Deploy** tab, for the **Deployment method** select :octocat: **GitHub** and **Connect to GitHub**. [:camera:](workshop-images/github-for-managers.037.jpeg) Log in if prompted, but it should take your already logged-in session, where you can click **Authorize heroku**. [:camera:](workshop-images/github-for-managers.038.jpeg)
 1. After authenticating Heroku to GitHub, type `github-for-managers` in the text box and click **Search**. Our repository should be displayed, then click **Connect**. [:camera:](workshop-images/github-for-managers.039.jpeg)
