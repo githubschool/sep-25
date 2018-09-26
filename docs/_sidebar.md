@@ -5,3 +5,4 @@
 #Header 2
   - indent 1
   
+ - [Training](training.md)
